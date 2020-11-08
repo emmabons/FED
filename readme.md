@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/coldplay-home" width="375px" alt="Dit is de homepage van de website van Coldplay">
+<img src="images/coldplay-home.png" width="375px" alt="Dit is de homepage van de website van Coldplay">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/coldplay-vinyl" width="375px" alt="Pagina waarop de release van het kerstalbum van Colplay wordt gepromoot">
+<img src="images/coldplay-vinyl.png" width="375px" alt="Pagina waarop de release van het kerstalbum van Coldplay wordt gepromoot">
