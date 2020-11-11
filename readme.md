@@ -62,7 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdownschets1.jpg" width="500px" alt="Dit is de een breakdownschets van de homepage van de website van Smashing Magazine.">
+<img src="images/breakdownschets1.jpg" width="1000px" alt="Dit is de een breakdownschets van de homepage van de website van Smashing Magazine.">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
