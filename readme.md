@@ -62,9 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
-
-
+<img src="images/breakdownschets1.jpeg" width="500px" alt="Dit is de een breakdownschets van de homepage van de website van Smashing Magazine.">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
@@ -73,12 +71,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -Ik ga me focussen op wat extra aandacht aan de surface plane, en als het lukt probeer ik hem ook helemaal responsive te maken.-
 
-**Je opdracht:** -(https://www.coldplay.com "Coldplay Homepage")-
+**Je opdracht:** -(https://www.smashingmagazine.com/ "Smashing Magazine Homepage")-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/coldplay-home.png" width="375px" alt="Dit is de homepage van de website van Coldplay">
+<img src="images/smash_home.png" width="375px" alt="Dit is de homepage van de website van Smashing Magazine">
 
-**Screenshot(s) van de tweede pagina (small screen):**
+**Screenshot(s) van de tweede pagina (small screen):** -(https://www.smashingmagazine.com/2020/11/authenticating-react-apps-auth0/)-
 
-<img src="images/coldplay-vinyl.png" width="375px" alt="Pagina waarop de release van het kerstalbum van Coldplay wordt gepromoot">
+<img src="images/smash_2.png" width="375px" alt="Pagina met een artikel.">
