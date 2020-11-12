@@ -1,5 +1,70 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* Fonts */
+@font-face {
+  font-family: 'Elena';
+  src: url(../fonts/ElenaWebRegular.woff2) format(woff2);
 }
 
+@font-face {
+  font-family: 'Elena';
+  src: url(../fonts/ElenaWebRegularItalic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elena';
+  src: url(../fonts/ElenaWebBold.woff2);
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Elena';
+  src: url(../fonts/ElenaWebBoldItalic.woff2);
+  font-style: bold italic;
+}
+
+@font-face {
+  font-family: 'Mija';
+  src: url(../fonts/Mija_Regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: 'Mija';
+  src: url(../fonts/Mija_Bold-webfont.woff2);
+  font-style: bold;
+}
+
+/* css reset */
+*, *::after, *::before {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+
+/* header */
+header {
+  background-color: red;
+}
+
+
+#logo-mob {
+  width: 3em;
+  margin: 1.6em 1em;
+}
+
+h1 {
+  font-family: 'Mija';
+}
+
+.shadow-beneath::after {
+  content: url(../images/website/homepage-algemeen/shadow.png)
+
+}
+
+/* main */
+.pic-move {
+  border: 5px solid;
+  border-color: black;
+  transform: rotate();
+  transition: transform .2s ease-out;
+}
