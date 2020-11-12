@@ -62,7 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdownschets1.jpg" width="1000px" alt="Dit is de een breakdownschets van de homepage van de website van Smashing Magazine.">
+<img src="images/procesverslag/breakdownschets1.jpg" width="1000px" alt="Dit is de een breakdownschets van de homepage van de website van Smashing Magazine.">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
@@ -75,8 +75,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/smash_home.png" width="375px" alt="Dit is de homepage van de website van Smashing Magazine">
+<img src="images/procesverslag/smash_home.png" width="375px" alt="Dit is de homepage van de website van Smashing Magazine">
 
 **Screenshot(s) van de tweede pagina (small screen):** -(https://www.smashingmagazine.com/2020/11/authenticating-react-apps-auth0/)-
 
-<img src="images/smash_2.png" width="375px" alt="Pagina van Smashing Magazine met een artikel.">
+<img src="images/procesverslag/smash_2.png" width="375px" alt="Pagina van Smashing Magazine met een artikel.">
