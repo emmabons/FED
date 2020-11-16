@@ -1,3 +1,9 @@
+/*
+standaard vormgeving verwijderen:
+  border:none;
+  appearance:none;
+  outline:none;*/
+
 /* Fonts */
 @font-face {
   font-family: 'Elena';
@@ -34,8 +40,10 @@
 }
 
 /* css reset */
-*, *::after, *::before {
-  box-sizing: border-box; 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Arial';
@@ -43,28 +51,95 @@
 
 /* header */
 header {
-  background-color: red;
+  background-color: #d33a2c;
 }
-
 
 #logo-mob {
   width: 3em;
   margin: 1.6em 1em;
 }
 
-h1 {
-  font-family: 'Mija';
+#search {
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 0.5em .75em rgba(50, 50, 93, .25);
+  font-family: 'Mija', Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  padding-left: calc(22px + .75em + .75em);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNHB4IiB3aWR0aD0iMjRweCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMi4zMSIgeTE9IjIzLjYyIiB4Mj0iMy43MyIgeTI9IjMuMDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlOTM3MjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmODZmMjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+TWFnbmlmaWVyPC90aXRsZT48cGF0aCBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiIGQ9Ik0yMy4zMyAyMC4xbC00LjczLTQuNzRhMTAuMDYgMTAuMDYgMCAxIDAtMy4yMyAzLjIzbDQuNzQgNC43NGEyLjI5IDIuMjkgMCAxIDAgMy4yMi0zLjIzem0tMTcuNDgtNS44NGE1Ljk0IDUuOTQgMCAxIDEgOC40MiAwIDYgNiAwIDAgMS04LjQyIDB6Ii8+PC9zdmc+);
+  background-repeat: no-repeat;
+  background-size: 1.4em;
+  background-position: .75em 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 18em;
 }
 
-.shadow-beneath::after {
-  content: url(../images/website/homepage-algemeen/shadow.png)
+/*#search:hover {
+  box-shadow: ;
+}*/
 
+/* algemeen */
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* main */
+#h1-1st {
+  font-family: 'Mija', Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #555;
+  font-size: 1.8em;
+  text-align: center;
+  width: 300px;
+  padding: .2em .1em;
+  line-height: 1.5em;
+}
+
+/*.shadow-beneath::after {
+  content: url(../images/website/homepage-algemeen/shadow.png)
+
+}*/
+
+.first-articles {
+  color: #fff;
+}
+
+/* alle articles binnen de eerste section */
+.first-articles article {
+  position: relative;
+}
+
+.first-articles article h2 {
+  font-family: 'Mija';
+  text-decoration: none;
+}
+
+.first-articles .uneven-articles {
+  background-color: #bc3428;
+}
+
+.first-articles .even-articles {
+  background-color: #c7372a;
+}
+
 .pic-move {
-  border: 5px solid;
-  border-color: black;
-  transform: rotate();
+  border: .4em solid;
+  border-color: #fff;
+  border-radius: 1em;
+  width: 8em;
+
+  transform: scale(.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));
   transition: transform .2s ease-out;
+  overflow: hidden;
+}
+
+.pic-move:hover,
+.pic-move:focus,
+.pic-move:active {
+  transform: scale(.84) translateX(15%) rotate(0deg);
 }
