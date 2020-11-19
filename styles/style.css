@@ -8,6 +8,7 @@ standaard vormgeving verwijderen:
 @font-face {
   font-family: 'Elena';
   src: url(../fonts/ElenaWebRegular.woff2) format(woff2);
+  font-style: normal;
 }
 
 @font-face {
@@ -31,6 +32,7 @@ standaard vormgeving verwijderen:
 @font-face {
   font-family: 'Mija';
   src: url(../fonts/Mija_Regular-webfont.woff2);
+  font-style: normal;
 }
 
 @font-face {
@@ -46,23 +48,49 @@ standaard vormgeving verwijderen:
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Arial';
+  font-family: 'Mija', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+/* algemeen */
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+article {
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* header */
 header {
   background-color: #d33a2c;
+  position: relative;
 }
 
 #logo-mob {
   width: 3em;
-  margin: 1.6em 1em;
+  margin: 1.6em auto 0em 1em;
 }
 
 #search {
   border: none;
   border-radius: 11px;
-  box-shadow: 0 0.5em .75em rgba(50, 50, 93, .25);
+  box-shadow: 0 0.5em .75em rgba(0, 0, 0, .55);
   font-family: 'Mija', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   padding-left: calc(22px + .75em + .75em);
@@ -73,31 +101,33 @@ header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 18em;
+  margin-bottom: 1.2em;
+  margin-left: 1.2em;
+}
+
+#search:hover {
+  box-shadow: 0 0.5 10em rgba(0, 0, 0, 0.55);
 }
 
 /*#search:hover {
   box-shadow: ;
 }*/
 
-/* algemeen */
-input {
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* main */
 #h1-1st {
   font-family: 'Mija', Arial, Helvetica, sans-serif;
   color: #333;
-  background-color: #555;
+  text-shadow: none;
+  background-color: #fff;
   font-size: 1.8em;
   text-align: center;
-  width: 300px;
+  width: 10em;
   padding: .2em .1em;
   line-height: 1.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30%;
 }
 
 /*.shadow-beneath::after {
@@ -105,41 +135,65 @@ a {
 
 }*/
 
-.first-articles {
+.featured-articles {
   color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
 }
 
-/* alle articles binnen de eerste section */
-.first-articles article {
-  position: relative;
-}
-
-.first-articles article h2 {
-  font-family: 'Mija';
-  text-decoration: none;
-}
-
-.first-articles .uneven-articles {
+.featured-articles:first-of-type {
   background-color: #bc3428;
+  padding-top: 10em;
 }
 
-.first-articles .even-articles {
-  background-color: #c7372a;
+.featured-article {
+  padding: 1.2em;
 }
 
 .pic-move {
   border: .4em solid;
   border-color: #fff;
   border-radius: 1em;
-  width: 8em;
-
-  transform: scale(.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));
-  transition: transform .2s ease-out;
-  overflow: hidden;
+  width: 6em;
 }
 
 .pic-move:hover,
 .pic-move:focus,
 .pic-move:active {
   transform: scale(.84) translateX(15%) rotate(0deg);
+}
+
+article figure {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5em auto;
+}
+
+.featured-articles figcaption {
+  text-shadow: none;
+  margin: 1em;
+}
+
+.arrow {
+  color: white;
+  background: none;
+  border:none;
+  font-size: 2em;
+
+}
+
+.hashtag {
+  font-size: .7em;
+  display: flex;
+  flex-direction: row;
+}
+
+.hashtag li::before {
+  content: '# ';
+  color: black;
+  font-size: .7em;
+}
+
+.hashtag li {
+  margin: 1.5em 0em;
+  margin-right: 1.5em;
 }
