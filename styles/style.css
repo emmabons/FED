@@ -1,8 +1,8 @@
 /*
 standaard vormgeving verwijderen:
-  border:none;
-  appearance:none;
-  outline:none;*/
+border:none;
+appearance:none;
+outline:none;*/
 
 /* Fonts */
 @font-face {
@@ -76,7 +76,33 @@ ul {
   list-style-type: none;
 }
 
-/* header */
+strong {
+  font-family: inherit;
+  font-style: bold;
+}
+
+.home_titles {
+  font-family: 'Elena';
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: .9em;
+  margin: 1em 0em 3em 0em;
+}
+
+.see-all {
+  font-family: 'Elena';
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  margin: 3em 0em;
+  border-bottom: 5px solid #d22a2c;
+  display: inline-block;
+}
+
+/* HEADER */
 header {
   background-color: #d33a2c;
   position: relative;
@@ -87,10 +113,48 @@ header {
   margin: 1.6em auto 0em 1em;
 }
 
+.menubutton {
+  position: absolute;
+  right: 1em;
+  top: 1.2em;
+  padding: .8em 3em .8em 1em;
+  background-color: #0003;
+  color: #fff;
+  border-radius: 11px;
+  border: none;
+  box-shadow: 0 .5em 1em rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../images/website/homepage-algemeen/menu-cat.svg);
+  background-repeat: no-repeat;
+  background-position: 90%;
+  background-size: 35px;
+}
+
+/*.menubutton::after {
+  content: url(../images/website/homepage-algemeen/menu-cat.svg);
+  width: 30px;
+  margin-left: 1em;
+}*/
+
+nav {
+  display: flex;
+  color: #fff;
+  font-size: 1.1em;
+  font-style: normal;
+  line-height: 2em;
+  margin: 1em 2em 3em;
+}
+
+nav ul {
+  columns: 2;
+}
+
 #search {
   border: none;
   border-radius: 11px;
-  box-shadow: 0 0.5em .75em rgba(0, 0, 0, .55);
+  box-shadow: 0 0.5em .75em rgba(0, 0, 0, .25);
   font-family: 'Mija', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   padding-left: calc(22px + .75em + .75em);
@@ -109,11 +173,7 @@ header {
   box-shadow: 0 0.5 10em rgba(0, 0, 0, 0.55);
 }
 
-/*#search:hover {
-  box-shadow: ;
-}*/
-
-/* main */
+/* main home*/
 #h1-1st {
   font-family: 'Mija', Arial, Helvetica, sans-serif;
   color: #333;
@@ -127,17 +187,17 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 30%;
+  top: 20%;
 }
 
-/*.shadow-beneath::after {
-  content: url(../images/website/homepage-algemeen/shadow.png)
-
-}*/
+.shadow-beneath::after {
+  content: url(../images/website/homepage-algemeen/shadow.png);
+}
 
 .featured-articles {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  position: relative;
 }
 
 .featured-articles:first-of-type {
@@ -157,8 +217,7 @@ header {
 }
 
 .pic-move:hover,
-.pic-move:focus,
-.pic-move:active {
+.pic-move:focus {
   transform: scale(.84) translateX(15%) rotate(0deg);
 }
 
@@ -173,10 +232,15 @@ article figure {
   margin: 1em;
 }
 
+.wrote {
+  font-family: 'Elena';
+  font-style: italic;
+}
+
 .arrow {
   color: white;
   background: none;
-  border:none;
+  border: none;
   font-size: 2em;
 
 }
@@ -196,4 +260,205 @@ article figure {
 .hashtag li {
   margin: 1.5em 0em;
   margin-right: 1.5em;
+}
+
+/* LATEST POSTS */
+.latest_posts {
+  background-color: #f6f3f2;
+  padding: 1.2em;
+}
+
+.latest_posts article {
+  padding: 1em 1.5em 0em;
+}
+
+time {
+  font-family: 'Elena';
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 1em;
+  color: #666667;
+}
+
+.latest_posts article h2 {
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.latest_posts article .author {
+  color: #666667;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.latest_posts article .author-link {
+  text-decoration: underline;
+}
+
+.latest_posts article .pre-text {
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.latest_posts article .arrow {
+  color: #d33a2c;
+}
+
+/* ad */
+
+.latest_posts .ad-inbetween {
+  background-color: #d33a2c;
+  color: #fff;
+  border-radius: 1em;
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em 2em;
+  max-width: 300px;
+}
+
+.latest_posts .ad-inbetween img {
+  width: 70%;
+  margin-bottom: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.latest_posts .ad-inbetween h2 {
+  text-decoration-color: orange;
+  text-align: center;
+}
+
+.latest_posts .ad-inbetween p {
+  font-family: 'Elena';
+  text-align: center;
+}
+
+.latest_posts .ad-inbetween button {
+  color: blue;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1em 2em;
+  width: 90%;
+  margin: 1em;
+  font-size: 1em;
+  align-self: center;
+  font-style: bold;
+}
+
+.latest_posts .ad-inbetween p:nth-of-type(2) {
+  font-size: .8em;
+}
+
+.latest_posts .ad-inbetween p:nth-of-type(2) a {
+  font-family: 'Elena';
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+
+
+/* BLUE AD */
+.blue_ad {
+  background-color: #1b71bb;
+  background-image: linear-gradient(#1b71bb 45%,#4399d9 100%);
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+}
+
+.blue_ad p {
+  font-family: 'Elena';
+  font-style: normal;
+}
+
+.blue_ad p:first-of-type {
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+.blue_ad h2 {
+  margin: 1em 0em;
+  font-size: 2em;
+  text-shadow: 2px 2px 1px rgba(3, 3, 3, .3);
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+}
+
+.blue_ad p:nth-of-type(2) {
+  font-size: 1.2em;
+  text-shadow: .5px .5px .5px rgba(3, 3, 3, .7);
+  line-height: 1.5em;
+}
+
+.blue_ad button {
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #1b71bb;
+  padding: 1em 2em;
+  font-size: 1.1em;
+  margin: 2em 0em;
+}
+
+.blue_ad img {
+  margin: 1em 0em;
+}
+
+/* COMMUNITY LINKS */
+.community_links {
+  background-color: #fff;
+}
+
+/* RED AD */
+.red_ad {
+  background-color: #d33a2c;
+}
+
+/* OUR GUIDES */
+.our_guides {
+  background-color: #f6f3f2;
+}
+
+
+
+
+/* footer */
+footer {
+  background-color: #d33a2c;
+  color: white;
+  padding: 2em;
+}
+
+footer h1 {
+  font-family: 'Elena';
+  font-style: normal;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-size: .9em;
+  margin: 2em 0em;
+}
+
+footer li::before {
+  content: "• ";
+  color: darkred;
+}
+
+footer ul li {
+  margin: 1em 0em;
+}
+
+footer ul li a {
+  font-family: 'Elena';
+}
+
+
+
+img {
+  max-width: 100%;
 }
