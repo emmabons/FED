@@ -43,16 +43,16 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 **Screenshot(s) 25 november 2020:**
 
-<img src="images/procesverslag/voortgang1a.png" width="375px" alt="Scherm 1">
-<img src="images/procesverslag/voortgang1b.png" width="375px" alt="Scherm 2">
-<img src="images/procesverslag/voortgang1c.png" width="375px" alt="Scherm 3">
-<img src="images/procesverslag/voortgang1d.png" width="375px" alt="Scherm 4">
-<img src="images/procesverslag/voortgang1e.png" width="375px" alt="Scherm 5">
-<img src="images/procesverslag/voortgang1f.png" width="375px" alt="Scherm 6">
-<img src="images/procesverslag/voortgang1g.png" width="375px" alt="Scherm 7">
-<img src="images/procesverslag/voortgang1h.png" width="375px" alt="Scherm 8">
-<img src="images/procesverslag/voortgang1i.png" width="375px" alt="Scherm 9">
-<img src="images/procesverslag/voortgang1j.png" width="375px" alt="Scherm 10">
+<img src="images/procesverslag/voortgang1a.png" width="250px" alt="Scherm 1">
+<img src="images/procesverslag/voortgang1b.png" width="250px" alt="Scherm 2">
+<img src="images/procesverslag/voortgang1c.png" width="250px" alt="Scherm 3">
+<img src="images/procesverslag/voortgang1d.png" width="250px" alt="Scherm 4">
+<img src="images/procesverslag/voortgang1e.png" width="250px" alt="Scherm 5">
+<img src="images/procesverslag/voortgang1f.png" width="250px" alt="Scherm 6">
+<img src="images/procesverslag/voortgang1g.png" width="250px" alt="Scherm 7">
+<img src="images/procesverslag/voortgang1h.png" width="250px" alt="Scherm 8">
+<img src="images/procesverslag/voortgang1i.png" width="250px" alt="Scherm 9">
+<img src="images/procesverslag/voortgang1j.png" width="250px" alt="Scherm 10">
 
 
 ### Agenda voor meeting
