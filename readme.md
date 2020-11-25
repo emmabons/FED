@@ -38,21 +38,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig:
+Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS ging wel oke. Waar ik tegenaan liep waren bepaalde positioneringsdingen waar ik nog niet helemaal uit ben. Daarnaast werken mijn fonts niet goed (een bepaald font word bold italic waar die gewoon normaal zou moeten zijn. Dus ik ga nog even kijken of ik kan uitvogelen wat het probleem daar is en hoe ik het op kan lossen.-
 
-**Screenshot(s):**
+**Screenshot(s) 25 november 2020:**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/procesverslag/voortgang1a" width="375px" alt="Scherm 1">
+<img src="images/procesverslag/voortgang1b" width="375px" alt="Scherm 2">
+<img src="images/procesverslag/voortgang1c" width="375px" alt="Scherm 3">
+<img src="images/procesverslag/voortgang1d" width="375px" alt="Scherm 4">
+<img src="images/procesverslag/voortgang1e" width="375px" alt="Scherm 5">
+<img src="images/procesverslag/voortgang1f" width="375px" alt="Scherm 6">
+<img src="images/procesverslag/voortgang1g" width="375px" alt="Scherm 7">
+<img src="images/procesverslag/voortgang1h" width="375px" alt="Scherm 8">
+<img src="images/procesverslag/voortgang1i" width="375px" alt="Scherm 9">
+<img src="images/procesverslag/voortgang1j" width="375px" alt="Scherm 10">
+
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Charlie        | Emma               | Jon          | Martijn          | Nine          |
+| ---            | ---                | ---          | ---              | ---           |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |               |
+| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |               |
+| ...            | ...                | ...          | ...              |               |
 
 ### Verslag van meeting
 
