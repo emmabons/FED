@@ -59,10 +59,11 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 -samen met je groepje opstellen-
 
-| Charlie        | Emma                 | Jon          | Martijn          | Nine          |
-| ---            | ---                  | ---          | ---              | ---           |
-| centreren      | fonts met @font-face | w3c          | zonder classes?  | w3c error     |
-|                | waar op letten met responsive | header img |           | img achtergr header ||                | w3c                  |              |                  |               |
+| Charlie        | Emma                          | Jon          | Martijn          | Nine                |
+| ---            | ---                           | ---          | ---              | ---                 |
+| centreren      | fonts met @font-face          | w3c          | zonder classes?  | w3c error           |
+|                | waar op letten met responsive | header img   |                  | img achtergr header |
+|                | w3c                           |              |                  |                     |
 
 ### Verslag van meeting
 
