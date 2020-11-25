@@ -81,6 +81,11 @@ strong {
   font-style: bold;
 }
 
+em {
+  font-family: inherit;
+  font-style: italic;
+}
+
 .home_titles {
   font-family: 'Elena';
   font-style: normal;
@@ -170,7 +175,7 @@ nav ul {
 }
 
 #search:hover {
-  box-shadow: 0 0.5 10em rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0.5px 10em rgba(0, 0, 0, 0.55);
 }
 
 /* main home*/
@@ -210,10 +215,10 @@ nav ul {
 }
 
 .pic-move {
-  border: .4em solid;
-  border-color: #fff;
-  border-radius: 1em;
-  width: 6em;
+  border: 5px solid;
+  border-color: #d33a2c;
+  border-radius: 10px;
+  width: 7em;
 }
 
 .pic-move:hover,
@@ -224,6 +229,7 @@ nav ul {
 article figure {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 1.5em auto;
 }
 
@@ -360,15 +366,16 @@ time {
   text-decoration-color: orange;
 }
 
-
-
 /* BLUE AD */
 .blue_ad {
   background-color: #1b71bb;
-  background-image: linear-gradient(#1b71bb 45%,#4399d9 100%);
+  background-image: linear-gradient(#1b71bb 45%, #4399d9 100%);
   color: #fff;
   text-align: center;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blue_ad p {
@@ -384,16 +391,19 @@ time {
 
 .blue_ad h2 {
   margin: 1em 0em;
-  font-size: 2em;
+  font-size: 2.2em;
+  line-height: 1.2em;
   text-shadow: 2px 2px 1px rgba(3, 3, 3, .3);
   text-decoration: underline;
   text-decoration-color: lightblue;
+  max-width: 700px;
 }
 
 .blue_ad p:nth-of-type(2) {
   font-size: 1.2em;
   text-shadow: .5px .5px .5px rgba(3, 3, 3, .7);
   line-height: 1.5em;
+  max-width: 700px;
 }
 
 .blue_ad button {
@@ -401,32 +411,232 @@ time {
   border-radius: 15px;
   background-color: #fff;
   color: #1b71bb;
-  padding: 1em 2em;
-  font-size: 1.1em;
+  padding: .8em 1em;
+  font-size: 1.2em;
   margin: 2em 0em;
 }
 
 .blue_ad img {
   margin: 1em 0em;
+  max-width: 800px;
 }
 
 /* COMMUNITY LINKS */
 .community_links {
   background-color: #fff;
+  padding: 3em;
+}
+
+.community_links article {
+  margin: 4em 0em;
+}
+
+.community_links #potw {
+  font-family: 'Elena';
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #666667;
+}
+
+.community_links #f-link {
+  margin: 1.5em 0em;
+}
+
+.community_links p {
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.community_links p a {
+  font-family: inherit;
+  color: #0a4ddd;
+  text-decoration: underline;
+}
+
+.community_links figcaption a {
+  color: #666667;
+  text-decoration: underline;
+}
+
+.community_links .wrote {
+  font-style: italic;
+  color: #999;
+}
+
+.community_links h2 {
+  font-family: 'Mija';
+  font-style: normal;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin: 1em 0em;
 }
 
 /* RED AD */
 .red_ad {
   background-color: #d33a2c;
+  color: #fff;
+  padding: 2em;
+}
+
+.red_ad img {
+  width: 10em;
+  margin: 1em 0em;
+}
+
+.red_ad h1 {
+  font-family: 'Elena';
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.red_ad h2 {
+  text-decoration: underline;
+  text-decoration-color: #e58980;
+  margin: 1em 0em;
+  font-size: 2em;
+}
+
+.red_ad p {
+  font-family: 'Elena';
+  font-style: normal;
+}
+
+.red_ad button {
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #1b71bb;
+  padding: .8em 1em;
+  font-size: 1.2em;
+  margin: 2em 0em;
 }
 
 /* OUR GUIDES */
 .our_guides {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 500px;
   background-color: #f6f3f2;
+  padding: 1.5em;
 }
 
+.our_guides article {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3em;
+  position: relative;
+}
 
+.our_guides .smash-g {
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: .7em;
+  text-transform: uppercase;
+  color: #666667;
+  margin-bottom: .3em;
+}
 
+.our_guides h2 {
+  font-size: 1.8em;
+  text-decoration: underline;
+  margin-bottom: 1.5em;
+}
+
+.our_guides p {
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.our_guides button {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1em 1em;
+  font-size: 1.2em;
+  margin: 2em 0em 0em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+.our_guides h2#green {
+  color: #19a972;
+}
+
+.our_guides button:first-of-type {
+  background-color: #19a972;
+}
+
+.our_guides #email-r {
+  background-color: #1b71bb;
+  background-image: linear-gradient(#1b71bb 60%, #01a6c1 100%);
+  color: #fff;
+  overflow: hidden;
+}
+
+.our_guides #email-r img {
+  width: 20em;
+}
+
+.our_guides #email-r h2 {
+  margin: 1em 0em;
+}
+
+.our_guides #email-r p {
+  font-family: 'Elena';
+  font-style: normal;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+
+.our_guides #email-r input {
+  border: none;
+  border-radius: 10px;
+  width: 16rem;
+  height: 3.5rem;
+  padding: .5em 0em;
+  font-size: 1.5em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+  margin-bottom: 1.5rem;
+}
+
+.our_guides #email-r #email {
+  font-size: 1.3em;
+  font-family: 'Elena';
+  font-style: italic;
+  padding-left: 1em;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 -6px 16px -6px rgba(0, 0, 0, .025);
+  transition: .3s;
+}
+
+.our_guides #email-r #email:focus {
+  box-shadow: none;
+}
+
+.our_guides #email-r #submit {
+  background-color: #0168b8;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.our_guides #email-r div {
+  background-color: #0067b859;
+  text-align: center;
+  padding: .8em 1.5em;
+  border-radius: 10px;
+}
+
+.our_guides #email-r div p {
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
 
 /* footer */
 footer {
@@ -444,7 +654,11 @@ footer h1 {
   margin: 2em 0em;
 }
 
-footer li::before {
+footer #sitemap {
+  columns: 2;
+}
+
+footer #sitemap li::before {
   content: "• ";
   color: darkred;
 }
@@ -457,8 +671,35 @@ footer ul li a {
   font-family: 'Elena';
 }
 
+#f-notes {
+  margin: 2em 0em;
+}
 
+#f-notes p {
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: .8em;
+  text-align: center;
+}
 
-img {
-  max-width: 100%;
+#f-notes a {
+  text-decoration: underline;
+  font-family: inherit;
+}
+
+#f-notes p:first-of-type {
+  font-style: italic;
+}
+
+#f-last a {
+  text-decoration: underline;
+  font-family: 'Elena';
+  font-style: normal;
+  font-size: .8em;
+  text-align: center;
+  margin-right: 1em;
+}
+
+footer img {
+  width: 40vw;
 }
