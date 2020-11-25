@@ -39,7 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig:
-Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS ging wel oke. Waar ik tegenaan liep waren bepaalde positioneringsdingen waar ik nog niet helemaal uit ben. Daarnaast werken mijn fonts niet goed (een bepaald font word bold italic waar die gewoon normaal zou moeten zijn. Dus ik ga nog even kijken of ik kan uitvogelen wat het probleem daar is en hoe ik het op kan lossen.-
+Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS ging wel oke. Waar ik tegenaan liep waren bepaalde positioneringsdingen waar ik nog niet helemaal uit ben. Daarnaast werken mijn fonts niet goed (een bepaald font wordt bold italic waar die gewoon normaal zou moeten zijn. Dus ik ga nog even kijken of ik kan uitvogelen wat het probleem daar is en hoe ik het op kan lossen.-
 
 **Screenshot(s) 25 november 2020:**
 
@@ -59,15 +59,14 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 -samen met je groepje opstellen-
 
-| Charlie        | Emma               | Jon          | Martijn          | Nine          |
-| ---            | ---                | ---          | ---              | ---           |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |               |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |               |
-| ...            | ...                | ...          | ...              |               |
+| Charlie        | Emma                 | Jon          | Martijn          | Nine          |
+| ---            | ---                  | ---          | ---              | ---           |
+| centreren      | fonts met @font-face | w3c          | zonder classes?  | w3c error     |
+|                | waar op letten met responsive | header img |           | img achtergr header ||                | w3c                  |              |                  |               |
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-voortgangs meeting-
 
 
 
