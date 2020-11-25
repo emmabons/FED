@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Emma Bons">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Smashing Magazing -- namaak</title>
+	<title>Smashing Magazine -- remake</title>
 
 	<link href="styles/style.css" rel="stylesheet">
 </head>
@@ -16,7 +16,23 @@
 		<img src="images/website/homepage-algemeen/logo.svg" alt="Smashing Magazine logo" id="logo-mob">
 	</a>
 
-	<form action="">
+	<button class="menubutton">Menu</button>
+	<nav>
+		<ul>
+			<li><a href="#">Articles</a></li>
+			<li><a href="#">Guides</a></li>
+			<li><a href="#">Books</a></li>
+			<li><a href="#">Workshops</a></li>
+			<li><a href="#">Membership</a></li>
+			<li><a href="#">Job Board</a></li>
+			<li><a href="#">Newsletter</a></li>
+			<li><a href="#">Podcasts</a></li>
+			<li><a href="#">Write for us</a></li>
+			<li><a href="#">Advertise with us</a></li>
+		</ul>
+	</nav>
+
+	<form action="get">
 		<input type="search" name="search" id="search" placeholder="Search articles...">
 	</form>
 </header>
@@ -29,12 +45,12 @@
 				<a href="article.html">
 					<article class="featured-article">
 						<figure>
-							<a href="empty">
+							<a href="#">
 								<img src="./images/website/homepage-algemeen/nefe-james-200x200.jpeg"
 									alt="Nefe James kijkt met een neutrale blik." class="pic-move">
 							</a>
 							<figcaption>
-								<a href="">Nefe Emadamerho-Atori
+								<a href="#">Nefe Emadamerho-Atori
 								</a>
 								<p class="wrote">wrote</p>
 							</figcaption>
@@ -42,7 +58,7 @@
 						<a href="article.html">
 							<h2>Authentication React Apps With AuthO</h2>
 						</a>
-						<a href="empty"><img src="" alt="Spreekwolkje">0 comments
+						<a href="#"><img src="" alt="Spreekwolkje">0 comments
 						</a>
 						<ul class="hashtag">
 							<li clas="article-tag">API<sup class="tag-cijfer">65</sup></li>
@@ -56,110 +72,110 @@
 		</ul>
 	</section>
 
-	<section>
-		<h1>Latest posts</h1>
+	<section class="latest_posts">
+		<h1 class="home_titles">Latest posts</h1>
 		<ul>
 			<li>
-				<a href="">
+				<a href="#">
 					<article>
 						<time>10 days ago</time>
 						<h2>Smashing Podcast Episode 28 With David Darnes: What Is Eleventy?</h2>
-						<p>by <a href="author" class="author-link">Drew McLellan</a></p>
-						<p>We're talking about Eleventy. What is it and how does it fit into your Jamstack workflow?
+						<p class="author">by <a href="#" class="author-link">Drew McLellan</a></p>
+						<p class="pre-text">We're talking about Eleventy. What is it and how does it fit into your Jamstack workflow?
 							Drew McLellan talks to David Darnes to find out.</p>
-						<button name="arrow">→</button>
+						<button name="arrow" class="arrow">→</button>
 					</article>
 				</a>
 			</li>
 			<li>
-				<article>
-					<a href="reclame"><img src="./images/website/homepage-algemeen/singing-barista.svg"
+				<article class="ad-inbetween">
+					<a href="#"><img src="./images/website/homepage-algemeen/singing-barista.svg"
 							alt="Illustrated singing cat making coffee.">
 					</a>
-					<a href="reclame">
+					<a href="#">
 						<h2>1699 smashing members
 						</h2>
 					</a>
 					<p>A friendly community that keeps this website alive. With books, webinars, discounts and
-						networking - for just 1 coffee a month. <a href="reclame">Join the family.</a>
+						networking - for just 1 coffee a month. <a href="#">Join the family.</a>
 					</p>
 					<button>Explore features →</button>
-					<p>Already have an account? <a href="reclame">Sign in!</a></p>
+					<p>Already have an account? <a href="#">Sign in!</a></p>
 				</article>
 			</li>
 		</ul>
-		<a href="meer">See all latest articles →</a>
+		<a href="#" class="see-all">See all latest articles →</a>
 	</section>
 
-	<section>
+	<section class="blue_ad">
 		<p>June 2020 • Shipping now</p>
-		<a href="">
+		<a href="#">
 			<h2>Meet "Click!": Encourage Clicks Without Shady Tricks
 			</h2>
 		</a>
-		<p>Our new book on how to <b>boost business KPI's</b>, build trust and address doubts effectively - without
+		<p>Our new book on how to <strong>boost business KPI's</strong>, build trust and address doubts effectively - without
 			alienating people along the way. By Paul Boag.</p>
 		<button>Jump to table of contents →</button>
 		<img src="./images/website/homepage-algemeen/click__homepage-illustration.svg"
 			alt="Cover of Paul Boag's 'Click', with the illustrated Smashing Cat.">
 	</section>
 
-	<section>
-		<h1>Community links
+	<section class="community_links">
+		<h1 class="home_titles">Community links
 		</h1>
 		<article>
-			<img src="./images/website/homepage-algemeen/sacha-greif-250px-opt.png" alt="Sacha Greif glimlacht.">
+			<img src="./images/website/homepage-algemeen/sacha-greif-250px-opt.png" alt="Sacha Greif glimlacht." class="pic-move">
 			<h2>Person of the week</h2>
 			<p>Sacha Greif is a designer, developer, and entrepreneur living and working in Kyoto. He created the
 				open-source full-stack app framework <a>Vulcan.js</a> and runs the annual <a href="empty"><em>The State
 						of JavaScript</em></a> survey as well as
-				its little sister, <a href="empty"><em>The State of CSS</em></a>. For his daily newsletter <a
-					href="empty"><em>Sidebar</em></a>, he curates the five best design links
+				its little sister, <a href="#"><em>The State of CSS</em></a>. For his daily newsletter <a
+					href="#"><em>Sidebar</em></a>, he curates the five best design links
 				every day. Sacha is the co-author of the book <a href="empty"><em>Discover Meteor</em></a> and author of
-				<a href="empty"><em>Brick by Brick</em></a>, a free guide to
+				<a href="#"><em>Brick by Brick</em></a>, a free guide to
 				help people build successful communities. Thank you for sharing and caring, dear Sacha!</p>
 		</article>
 		<ul>
 			<li>
 				<article>
-					<img src="./images/website/homepage-algemeen/tania-rascia-opt.png" alt="Tania Rascia smiles.">
-					<p><a href="empty">Tania Rascia</a> wrote</p>
-					<a href="empty">
+					<img src="./images/website/homepage-algemeen/tania-rascia-opt.png" alt="Tania Rascia smiles." class="pic-move">
+					<p><a href="#">Tania Rascia</a> wrote</p>
+					<a href="#">
 						<h2>Understanding JavaScript Modules</h2>
 					</a>
 					<p><time datetime="2020-11-12">November 12, 2020</time> - The ECMAScript 2015 specification
 						introduced
 						JavaScript modules, which allowed for the use of import and export statements. Tania Rascia <a
-							href="empty">explains
+							href="#">explains
 							what a JavaScript module is</a> and how to use import and export to organize your code.</p>
 				</article>
 			</li>
 		</ul>
-		<a href="meer">More links on Twitter →</a>
+		<a href="#" class="see-all">More links on Twitter →</a>
 	</section>
 
-	<section>
+	<section class="red_ad">
 		<img src="./images/website/homepage-algemeen/design-systems-hardcover-book.png" alt="Design Systems Hardcover">
 		<p>Featured smashing book</p>
-		<a href="empty">
+		<a href="#">
 			<h2>
 				Design Systems
 			</h2>
 		</a>
-		<p>Meet <b>Design Systems</b>, a recent Smashing book in which Alla Kholmatova explores how to set up an
-			<b>effective
-				design system</b> to create great digital products. With common traps, gotchas and lessons learned.</p>
+		<p>Meet <strong>Design Systems</strong>, a recent Smashing book in which Alla Kholmatova explores how to set up an
+			<strong>effective
+				design system</strong> to create great digital products. With common traps, gotchas and lessons learned.</p>
 		<button>Jump to table of contents →</button>
 	</section>
 
-	<section>
-		<h1>Our Guides</h1>
+	<section class="our_guides">
+		<h1 class="home_titles">Our Guides</h1>
 		<ul>
 			<li>
 				<p>
 					A smashing guide to
 				</p>
-				<a href="empty">
+				<a href="#">
 					<h2>JavaScript & Frameworks</h2>
 				</a>
 				<p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer
@@ -170,11 +186,11 @@
 			<li>
 				<img src="./images/website/homepage-algemeen/ny20.png"
 					alt="Smashing Cat with a New York City silhouette in the Background">
-				<a href="empty">
+				<a href="#">
 					<h2>Email Newsletter</h2>
 				</a>
 				<p>Every Tuesday, we send an email newsletter with useful techniques on front-end & UX. Subscribe and
-					get a <b>freebie: Smart Interface Design Checklists PDF</b> — right in your inbox. 🔮</p>
+					get a <strong>freebie: Smart Interface Design Checklists PDF</strong> — right in your inbox. 🔮</p>
 				<form action="">
 					<input type="email" name="email" id="email">
 					<input type="submit" value="Meow!">
@@ -184,13 +200,13 @@
 				</p>
 			</li>
 		</ul>
-		<a href="meer">See all guides →</a>
+		<a href="#" class="see-all">See all guides →</a>
 	</section>
 
 	<footer>
 		<h1>Browse all Smashing Magazine topics</h1>
 		<ul>
-			<li><a href="empty">Accessibility</a></li>
+			<li><a href="#">Accessibility</a></li>
 			<li><a href="empty">Android</a></li>
 			<li><a href="empty">Animation</a></li>
 			<li><a href="empty">Apps</a></li>
