@@ -4,41 +4,49 @@ border:none;
 appearance:none;
 outline:none;*/
 
+/* voor focus: outline aanpassen*/
+
 /* Fonts */
 @font-face {
   font-family: 'Elena';
-  src: url(../fonts/ElenaWebRegular.woff2) format(woff2);
+  src: url(../fonts/ElenaWebRegular.woff2);
   font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'Elena';
   src: url(../fonts/ElenaWebRegularItalic.woff2);
   font-style: italic;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'Elena';
   src: url(../fonts/ElenaWebBold.woff2);
-  font-style: bold;
+  font-style: normal;
+  font-weight: bold
 }
 
 @font-face {
   font-family: 'Elena';
   src: url(../fonts/ElenaWebBoldItalic.woff2);
-  font-style: bold italic;
+  font-style: italic;
+  font-weight: bold;
 }
 
 @font-face {
   font-family: 'Mija';
   src: url(../fonts/Mija_Regular-webfont.woff2);
   font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'Mija';
   src: url(../fonts/Mija_Bold-webfont.woff2);
-  font-style: bold;
+  font-style: normal;
+  font-weight: bold;
 }
 
 /* css reset */
@@ -107,6 +115,10 @@ em {
   display: inline-block;
 }
 
+*:focus {
+  outline: dotted .2em darkred;
+}
+
 /* HEADER */
 header {
   background-color: #d33a2c;
@@ -129,6 +141,7 @@ header {
   border: none;
   box-shadow: 0 .5em 1em rgba(0, 0, 0, 0.2);
   font-size: 1.2em;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   background-image: url(../images/website/homepage-algemeen/menu-cat.svg);
@@ -147,7 +160,7 @@ nav {
   display: flex;
   color: #fff;
   font-size: 1.1em;
-  font-style: normal;
+  font-weight: bold;
   line-height: 2em;
   margin: 1em 2em 3em;
 }
@@ -161,6 +174,7 @@ nav ul {
   border-radius: 11px;
   box-shadow: 0 0.5em .75em rgba(0, 0, 0, .25);
   font-family: 'Mija', Arial, Helvetica, sans-serif;
+  font-weight: bold;
   font-size: 1.1em;
   padding-left: calc(22px + .75em + .75em);
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNHB4IiB3aWR0aD0iMjRweCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMi4zMSIgeTE9IjIzLjYyIiB4Mj0iMy43MyIgeTI9IjMuMDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlOTM3MjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmODZmMjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+TWFnbmlmaWVyPC90aXRsZT48cGF0aCBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiIGQ9Ik0yMy4zMyAyMC4xbC00LjczLTQuNzRhMTAuMDYgMTAuMDYgMCAxIDAtMy4yMyAzLjIzbDQuNzQgNC43NGEyLjI5IDIuMjkgMCAxIDAgMy4yMi0zLjIzem0tMTcuNDgtNS44NGE1Ljk0IDUuOTQgMCAxIDEgOC40MiAwIDYgNiAwIDAgMS04LjQyIDB6Ii8+PC9zdmc+);
@@ -170,8 +184,10 @@ nav ul {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 18em;
-  margin-bottom: 1.2em;
-  margin-left: 1.2em;
+  /* margin-bottom: 1.2em;
+  margin-left: 1.2em; */
+  /* display: block;
+  margin: 1.2em auto; */
 }
 
 #search:hover {
@@ -187,7 +203,7 @@ nav ul {
   font-size: 1.8em;
   text-align: center;
   width: 10em;
-  padding: .2em .1em;
+  padding: .2em .1em; /* weghalen of twee losse regels maken */
   line-height: 1.5em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -195,6 +211,7 @@ nav ul {
   top: 20%;
 }
 
+/* div maken */
 .shadow-beneath::after {
   content: url(../images/website/homepage-algemeen/shadow.png);
 }
@@ -226,21 +243,11 @@ nav ul {
   transform: scale(.84) translateX(15%) rotate(0deg);
 }
 
-article figure {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 1.5em auto;
-}
-
-.featured-articles figcaption {
-  text-shadow: none;
-  margin: 1em;
-}
-
 .wrote {
   font-family: 'Elena';
   font-style: italic;
+  font-weight: normal;
+  margin-left: .8em;
 }
 
 .arrow {
@@ -248,7 +255,6 @@ article figure {
   background: none;
   border: none;
   font-size: 2em;
-
 }
 
 .hashtag {
@@ -276,25 +282,31 @@ article figure {
 
 .latest_posts article {
   padding: 1em 1.5em 0em;
+  transition: .1s ease-in;
+  max-width: 500px;
 }
 
 time {
   font-family: 'Elena';
-  font-style: italic;
+  font-style: normal;
   font-variant: small-caps;
-  font-size: 1em;
+  font-size: .8em;
   color: #666667;
+  letter-spacing: 1px;
+
 }
 
 .latest_posts article h2 {
   text-decoration: underline;
   margin-bottom: 1em;
+  transition: .1s ease-in;
 }
 
 .latest_posts article .author {
   color: #666667;
-  font-size: 1em;
+  font-size: .9em;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .latest_posts article .author-link {
@@ -304,12 +316,29 @@ time {
 .latest_posts article .pre-text {
   font-family: 'Elena';
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 1em;
+  color: #666667;
 }
 
 .latest_posts article .arrow {
   color: #d33a2c;
+  padding: 1em 0em;
+  transition: .1s ease-in;
+}
+
+/* Latest posts HOVER */
+.latest_posts article:hover {
+  background-color: #fff;
+}
+
+.latest_posts article:hover h2 {
+  color: #d33a2c;
+}
+
+.latest_posts article:hover .arrow {
+  background-color: #006fc6;
+  color: #fff;
 }
 
 /* ad */
@@ -344,7 +373,7 @@ time {
 }
 
 .latest_posts .ad-inbetween button {
-  color: blue;
+  color: #267dcc ;
   background-color: #fff;
   border: none;
   border-radius: 10px;
@@ -410,10 +439,15 @@ time {
   border: none;
   border-radius: 15px;
   background-color: #fff;
-  color: #1b71bb;
+  color: #267dcc;
   padding: .8em 1em;
   font-size: 1.2em;
+  font-weight: bold;
   margin: 2em 0em;
+}
+
+.blue_ad button:hover {
+  color: #d33a2c;
 }
 
 .blue_ad img {
@@ -434,7 +468,9 @@ time {
 .community_links #potw {
   font-family: 'Elena';
   font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 1.1em;
   color: #666667;
 }
@@ -446,12 +482,14 @@ time {
 .community_links p {
   font-family: 'Elena';
   font-style: normal;
+  font-weight: normal;
   font-size: 1.1em;
+  color: #333;
 }
 
 .community_links p a {
   font-family: inherit;
-  color: #0a4ddd;
+  color: #006fc6;
   text-decoration: underline;
 }
 
@@ -489,29 +527,40 @@ time {
   font-family: 'Elena';
   font-style: normal;
   text-transform: uppercase;
-  font-size: 1em;
+  letter-spacing: 2px;
+  font-size: .9em;
 }
 
 .red_ad h2 {
   text-decoration: underline;
   text-decoration-color: #e58980;
-  margin: 1em 0em;
+  margin: .5em 0em;
   font-size: 2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25)
 }
 
 .red_ad p {
   font-family: 'Elena';
-  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25)
 }
 
 .red_ad button {
   border: none;
   border-radius: 15px;
   background-color: #fff;
-  color: #1b71bb;
+  color: #267dcc;
   padding: .8em 1em;
   font-size: 1.2em;
+  font-weight: bold;
   margin: 2em 0em;
+}
+
+.red_ad button:hover {
+  color: #d33a2c;
+
 }
 
 /* OUR GUIDES */
@@ -561,6 +610,7 @@ time {
   color: #fff;
   padding: 1em 1em;
   font-size: 1.2em;
+  font-weight: bold;
   margin: 2em 0em 0em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
 }
@@ -624,6 +674,7 @@ time {
   background-color: #0168b8;
   color: #fff;
   font-size: 1.3em;
+  font-weight: bold;
 }
 
 .our_guides #email-r div {
@@ -702,4 +753,22 @@ footer ul li a {
 
 footer img {
   width: 40vw;
+}
+
+/* Foto + auteur naam */
+
+.pic-name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1.5em auto;
+}
+
+.pic-name img {
+  margin-right: 1em;
+}
+
+.pic-name figcaption {
+  display: inherit;
+  font-weight: bold;
 }
