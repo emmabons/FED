@@ -36,11 +36,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen goed positioneren op een mobiel scherm. De volgende stappen die ik moet gaan zetten is de pagina responsive maken en de tweede pagina maken. Daarna ga ik werken aan in ieder geval 1 animatie. Waar ik nu vooral nog tegen aan loop is een paar positioneringsdingen die niet helemaal lukken.-
 
 **Screenshot(s) 11 december 2020:**
-| Scherm 1-5        | Scherm 6-10                | 
-| ---            | ---                 |
-| <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang2f.png" width="250px" alt="Scherm 6"> |
-| <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang2g.png" width="250px" alt="Scherm 7"> |
-| <img src="images/procesverslag/voortgang2c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang2h.png" width="250px" alt="Scherm 8"> |
+| Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
+| ---               | ---                 | ---              |
+| <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang2d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang2g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang2e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang2h.png" width="250px" alt="Scherm 8"> |
+| <img src="images/procesverslag/voortgang2c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang2f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang2i.png" width="250px" alt="Scherm 9"> |
+|                   |                     | <img src="images/procesverslag/voortgang2j.png" width="250px" alt="Scherm 10"> |
 
 <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1">
 <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2">
