@@ -35,7 +35,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig:
 Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen goed positioneren op een mobiel scherm. De volgende stappen die ik moet gaan zetten is de pagina responsive maken en de tweede pagina maken. Daarna ga ik werken aan in ieder geval 1 animatie. Waar ik nu vooral nog tegen aan loop is een paar positioneringsdingen die niet helemaal lukken.-
 
-**Screenshot(s) 25 november 2020:**
+**Screenshot(s) 11 december 2020:**
+| Scherm 1-5        | Scherm 6-10                | 
+| ---            | ---                 |
+| <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang2f.png" width="250px" alt="Scherm 6"> |
+| <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang2g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang2c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang2h.png" width="250px" alt="Scherm 8"> |
 
 <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1">
 <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2">
@@ -68,13 +73,7 @@ Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen
 -dit ging goed & dit was lastig:
 Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS ging wel oke. Waar ik tegenaan liep waren bepaalde positioneringsdingen waar ik nog niet helemaal uit ben. Daarnaast werken mijn fonts niet goed (een bepaald font wordt bold italic waar die gewoon normaal zou moeten zijn. Dus ik ga nog even kijken of ik kan uitvogelen wat het probleem daar is en hoe ik het op kan lossen.-
 
-**Screenshot(s) 11 december 2020:**
-!<img src="images/procesverslag/voortgang1a.png" width="250px" alt="Scherm 1"> !<img src="images/procesverslag/voortgang1f.png" width="250px" alt="Scherm 6">
-!<img src="images/procesverslag/voortgang1b.png" width="250px" alt="Scherm 2"> !<img src="images/procesverslag/voortgang1g.png" width="250px" alt="Scherm 7">
-!<img src="images/procesverslag/voortgang1c.png" width="250px" alt="Scherm 3"> !<img src="images/procesverslag/voortgang1h.png" width="250px" alt="Scherm 8">
-!<img src="images/procesverslag/voortgang1d.png" width="250px" alt="Scherm 4"> !<img src="images/procesverslag/voortgang1i.png" width="250px" alt="Scherm 9">
-!<img src="images/procesverslag/voortgang1e.png" width="250px" alt="Scherm 5"> !<img src="images/procesverslag/voortgang1j.png" width="250px" alt="Scherm 10">
-
+**Screenshot(s) 25 november 2020:**
 <img src="images/procesverslag/voortgang1a.png" width="250px" alt="Scherm 1">
 <img src="images/procesverslag/voortgang1b.png" width="250px" alt="Scherm 2">
 <img src="images/procesverslag/voortgang1c.png" width="250px" alt="Scherm 3">
