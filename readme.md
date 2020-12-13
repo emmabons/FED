@@ -63,7 +63,7 @@ Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen
 
 <img src="images/procesverslag/link-center.png" width="250px" alt="Code die ik ga toepassen op bepaalde links">
 
-<img src="images/procesverslag/footer-responsive.png" width="250px" alt="Code die ik ga toepassen op de footer>
+<img src="images/procesverslag/footer-responsive.png" width="250px" alt="Code die ik ga toepassen op de footer">
 
 ## Voortgang 1 (week 3)
 
