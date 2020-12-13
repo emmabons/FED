@@ -58,8 +58,11 @@ Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen
 -Een aantal dingen waar ik niet uitkwam heeft Janno uitgelegd. Zie hieronder ook de screenshots van de code die ik ga toepassen.-
 
 **Screenshots van alles wat ik na de meeting toe ga passen:**
+
 <img src="images/procesverslag/form-center.png" width="250px" alt="Code die ik ga toepassen op het zoekveld">
+
 <img src="images/procesverslag/link-center.png" width="250px" alt="Code die ik ga toepassen op bepaalde links">
+
 <img src="images/procesverslag/footer-responsive.png" width="250px" alt="Code die ik ga toepassen op de footer>
 
 ## Voortgang 1 (week 3)
