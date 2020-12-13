@@ -35,25 +35,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig:
 Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen goed positioneren op een mobiel scherm. De volgende stappen die ik moet gaan zetten is de pagina responsive maken en de tweede pagina maken. Daarna ga ik werken aan in ieder geval 1 animatie. Waar ik nu vooral nog tegen aan loop is een paar positioneringsdingen die niet helemaal lukken.-
 
-**Screenshot(s) 11 december 2020:**
+**Screenshots 11 december 2020:**
 | Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
 | ---               | ---                 | ---              |
 | <img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang2d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang2g.png" width="250px" alt="Scherm 7"> |
 | <img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang2e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang2h.png" width="250px" alt="Scherm 8"> |
 | <img src="images/procesverslag/voortgang2c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang2f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang2i.png" width="250px" alt="Scherm 9"> |
 |                   |                     | <img src="images/procesverslag/voortgang2j.png" width="250px" alt="Scherm 10"> |
-
-<img src="images/procesverslag/voortgang2a.png" width="250px" alt="Scherm 1">
-<img src="images/procesverslag/voortgang2b.png" width="250px" alt="Scherm 2">
-<img src="images/procesverslag/voortgang2c.png" width="250px" alt="Scherm 3">
-<img src="images/procesverslag/voortgang2d.png" width="250px" alt="Scherm 4">
-<img src="images/procesverslag/voortgang2e.png" width="250px" alt="Scherm 5">
-<img src="images/procesverslag/voortgang2f.png" width="250px" alt="Scherm 6">
-<img src="images/procesverslag/voortgang2g.png" width="250px" alt="Scherm 7">
-<img src="images/procesverslag/voortgang2h.png" width="250px" alt="Scherm 8">
-<img src="images/procesverslag/voortgang2i.png" width="250px" alt="Scherm 9">
-<img src="images/procesverslag/voortgang2j.png" width="250px" alt="Scherm 10">
-
 
 ### Agenda voor meeting
 
@@ -65,7 +53,14 @@ Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen
 | surface verw.  | animatie foto       |              |                  |                     |
 |                | midden positioneren |              |                  |                     |
 
+### Verslag van meeting
 
+-Een aantal dingen waar ik niet uitkwam heeft Janno uitgelegd. Zie hieronder ook de screenshots van de code die ik ga toepassen.-
+
+**Screenshots van alles wat ik na de meeting toe ga passen:**
+<img src="images/procesverslag/form-center.png" width="250px" alt="Code die ik ga toepassen op het zoekveld">
+<img src="images/procesverslag/link-center.png" width="250px" alt="Code die ik ga toepassen op bepaalde links">
+<img src="images/procesverslag/footer-responsive.png" width="250px" alt="Code die ik ga toepassen op de footer>
 
 ## Voortgang 1 (week 3)
 
@@ -74,18 +69,13 @@ Ik heb afgelopen week vooral gewerkt aan detail dingen. Vooral nog wat elementen
 -dit ging goed & dit was lastig:
 Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS ging wel oke. Waar ik tegenaan liep waren bepaalde positioneringsdingen waar ik nog niet helemaal uit ben. Daarnaast werken mijn fonts niet goed (een bepaald font wordt bold italic waar die gewoon normaal zou moeten zijn. Dus ik ga nog even kijken of ik kan uitvogelen wat het probleem daar is en hoe ik het op kan lossen.-
 
-**Screenshot(s) 25 november 2020:**
-<img src="images/procesverslag/voortgang1a.png" width="250px" alt="Scherm 1">
-<img src="images/procesverslag/voortgang1b.png" width="250px" alt="Scherm 2">
-<img src="images/procesverslag/voortgang1c.png" width="250px" alt="Scherm 3">
-<img src="images/procesverslag/voortgang1d.png" width="250px" alt="Scherm 4">
-<img src="images/procesverslag/voortgang1e.png" width="250px" alt="Scherm 5">
-<img src="images/procesverslag/voortgang1f.png" width="250px" alt="Scherm 6">
-<img src="images/procesverslag/voortgang1g.png" width="250px" alt="Scherm 7">
-<img src="images/procesverslag/voortgang1h.png" width="250px" alt="Scherm 8">
-<img src="images/procesverslag/voortgang1i.png" width="250px" alt="Scherm 9">
-<img src="images/procesverslag/voortgang1j.png" width="250px" alt="Scherm 10">
-
+**Screenshots 25 november 2020:**
+| Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
+| ---               | ---                 | ---              |
+| <img src="images/procesverslag/voortgang1a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang1d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang1g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang1b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang1e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang1h.png" width="250px" alt="Scherm 8"> |
+| <img src="images/procesverslag/voortgang1c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang1f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang1i.png" width="250px" alt="Scherm 9"> |
+|                   |                     | <img src="images/procesverslag/voortgang1j.png" width="250px" alt="Scherm 10"> |
 
 ### Agenda voor meeting
 
@@ -99,7 +89,7 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 ### Verslag van meeting
 
--voortgangs meeting-
+-Na de meeting heb ik alsnog zelf kunnen uitvogelen wat er mis wat met mijn fonts: ik had een format ingevoerd wat niet werkte en had als font-style bold gegeven. Ik kwam erachter dat bold geen font-style is, maar een font-weight. Nu ik dat heb aangepast ziet de site er al een stuk netter uit. Dit loste ook al meteen een hoop van de w3c meldingen op.-
 
 
 

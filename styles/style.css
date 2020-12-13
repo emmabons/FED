@@ -112,7 +112,10 @@ em {
   text-align: center;
   margin: 3em 0em;
   border-bottom: 5px solid #d22a2c;
-  display: inline-block;
+  display: block;
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 *:focus {
@@ -162,11 +165,18 @@ nav {
   font-size: 1.1em;
   font-weight: bold;
   line-height: 2em;
-  margin: 1em 2em 3em;
+  margin: 1em 2em;
 }
 
 nav ul {
   columns: 2;
+}
+
+header form {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 0em;
 }
 
 #search {
@@ -184,10 +194,6 @@ nav ul {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 18em;
-  /* margin-bottom: 1.2em;
-  margin-left: 1.2em; */
-  /* display: block;
-  margin: 1.2em auto; */
 }
 
 #search:hover {
@@ -212,8 +218,17 @@ nav ul {
 }
 
 /* div maken */
-.shadow-beneath::after {
+/* .shadow-beneath::after {
   content: url(../images/website/homepage-algemeen/shadow.png);
+} */
+
+#h1-1st span {
+  display: block;
+}
+
+.featured-articles div:first-of-type {
+  display: flex;
+  justify-content: center;
 }
 
 .featured-articles {
@@ -241,13 +256,6 @@ nav ul {
 .pic-move:hover,
 .pic-move:focus {
   transform: scale(.84) translateX(15%) rotate(0deg);
-}
-
-.wrote {
-  font-family: 'Elena';
-  font-style: italic;
-  font-weight: normal;
-  margin-left: .8em;
 }
 
 .arrow {
@@ -363,7 +371,7 @@ time {
 }
 
 .latest_posts .ad-inbetween h2 {
-  text-decoration-color: orange;
+  text-decoration-color: #e58980;
   text-align: center;
 }
 
@@ -382,7 +390,7 @@ time {
   margin: 1em;
   font-size: 1em;
   align-self: center;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .latest_posts .ad-inbetween p:nth-of-type(2) {
@@ -631,7 +639,9 @@ time {
 }
 
 .our_guides #email-r img {
-  width: 20em;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .our_guides #email-r h2 {
@@ -706,7 +716,8 @@ footer h1 {
 }
 
 footer #sitemap {
-  columns: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer #sitemap li::before {
@@ -715,11 +726,13 @@ footer #sitemap li::before {
 }
 
 footer ul li {
-  margin: 1em 0em;
+  margin: .5em 0em;
+  min-width: 40vw;
 }
 
 footer ul li a {
   font-family: 'Elena';
+  font-size: .9em;
 }
 
 #f-notes {
@@ -729,8 +742,12 @@ footer ul li a {
 #f-notes p {
   font-family: 'Elena';
   font-style: normal;
-  font-size: .8em;
+  font-size: .9em;
   text-align: center;
+}
+
+#f-notes p:nth-of-type(2), #f-notes p:nth-of-type(3), #f-notes p:nth-of-type(4) {
+  font-size: 1em;
 }
 
 #f-notes a {
@@ -740,6 +757,10 @@ footer ul li a {
 
 #f-notes p:first-of-type {
   font-style: italic;
+}
+
+#f-last {
+
 }
 
 #f-last a {
@@ -768,7 +789,14 @@ footer img {
   margin-right: 1em;
 }
 
-.pic-name figcaption {
-  display: inherit;
+.pic-name p a {
+  font-family: 'Mija', Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.wrote {
+  font-family: 'Elena';
+  font-style: italic;
+  font-weight: normal;
+  margin-left: .2em;
 }
