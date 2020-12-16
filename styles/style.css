@@ -97,25 +97,36 @@ em {
 .home_titles {
   font-family: 'Elena';
   font-style: normal;
+  font-variant: small-caps;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: .9em;
+  font-size: .8em;
   margin: 1em 0em 3em 0em;
+  color: #222;
+  padding: 0 .6em;
 }
 
 .see-all {
   font-family: 'Elena';
   font-style: normal;
   font-variant: small-caps;
+  font-size: .8em;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #333333;
   text-align: center;
   margin: 3em 0em;
-  border-bottom: 5px solid #d22a2c;
+  padding-bottom: .5em;
+  border-bottom: 5px solid #d33a2c;
   display: block;
-  max-width: 60%;
+  max-width: 70%;
   text-align: center;
   margin: 0 auto;
+  transition: .1s ease-out;;
+}
+
+.see-all:hover {
+  color: #d33a2c
 }
 
 *:focus {
@@ -222,10 +233,6 @@ header form {
   content: url(../images/website/homepage-algemeen/shadow.png);
 } */
 
-#h1-1st span {
-  display: block;
-}
-
 .featured-articles div:first-of-type {
   display: flex;
   justify-content: center;
@@ -289,7 +296,7 @@ header form {
 }
 
 .latest_posts article {
-  padding: 1em 1.5em 0em;
+  padding: 1em 1.5em 5em;
   transition: .1s ease-in;
   max-width: 500px;
 }
@@ -331,8 +338,12 @@ time {
 
 .latest_posts article .arrow {
   color: #d33a2c;
-  padding: 1em 0em;
+  color: blue;
+  padding: .5em 0em;
   transition: .1s ease-in;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Latest posts HOVER */
@@ -347,6 +358,15 @@ time {
 .latest_posts article:hover .arrow {
   background-color: #006fc6;
   color: #fff;
+}
+
+#div2 {
+  background-color: yellow;
+  padding: 2em;
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* ad */
@@ -409,7 +429,7 @@ time {
   background-image: linear-gradient(#1b71bb 45%, #4399d9 100%);
   color: #fff;
   text-align: center;
-  padding: 2em;
+  padding: 3em 1.5em 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -423,21 +443,24 @@ time {
 .blue_ad p:first-of-type {
   font-variant: small-caps;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: .65em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 }
 
 .blue_ad h2 {
-  margin: 1em 0em;
+  margin: .5em 0em 1em;
   font-size: 2.2em;
   line-height: 1.2em;
   text-shadow: 2px 2px 1px rgba(3, 3, 3, .3);
   text-decoration: underline;
-  text-decoration-color: lightblue;
+  text-decoration-color: #4399d9;
   max-width: 700px;
 }
 
 .blue_ad p:nth-of-type(2) {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-shadow: .5px .5px .5px rgba(3, 3, 3, .7);
   line-height: 1.5em;
   max-width: 700px;
@@ -576,7 +599,6 @@ time {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 500px;
   background-color: #f6f3f2;
   padding: 1.5em;
 }
@@ -588,6 +610,7 @@ time {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
   margin-bottom: 3em;
   position: relative;
+  max-width: 500px;
 }
 
 .our_guides .smash-g {
@@ -635,24 +658,27 @@ time {
   background-color: #1b71bb;
   background-image: linear-gradient(#1b71bb 60%, #01a6c1 100%);
   color: #fff;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .our_guides #email-r img {
   width: 100%;
-  margin: 0 auto;
-  display: block;
+  height: auto;
+  justify-self: center;
 }
 
 .our_guides #email-r h2 {
   margin: 1em 0em;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .our_guides #email-r p {
   font-family: 'Elena';
   font-style: normal;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.15em;
   margin-bottom: 1.5em;
 }
 
@@ -685,6 +711,24 @@ time {
   color: #fff;
   font-size: 1.3em;
   font-weight: bold;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .45);
+  transition: .2s;
+}
+
+.our_guides #email-r #submit:hover {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .25)
+}
+
+.our_guides #email-r form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+@media (min-width: 500px) {
+  .our_guides #email-r form {
+    flex-direction: row;
+  }
 }
 
 .our_guides #email-r div {
@@ -725,7 +769,7 @@ footer #sitemap li::before {
   color: darkred;
 }
 
-footer ul li {
+footer #sitemap li {
   margin: .5em 0em;
   min-width: 40vw;
 }
@@ -747,7 +791,7 @@ footer ul li a {
 }
 
 #f-notes p:nth-of-type(2), #f-notes p:nth-of-type(3), #f-notes p:nth-of-type(4) {
-  font-size: 1em;
+  font-size: .9em;
 }
 
 #f-notes a {
@@ -760,14 +804,21 @@ footer ul li a {
 }
 
 #f-last {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+#f-last li {
+  padding: .5em .1em;
 }
 
 #f-last a {
   text-decoration: underline;
   font-family: 'Elena';
   font-style: normal;
-  font-size: .8em;
+  font-size: .9em;
   text-align: center;
   margin-right: 1em;
 }

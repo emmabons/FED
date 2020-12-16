@@ -24,8 +24,43 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+-dit ging goed & dit was lastig:
+Ik heb alle feedback van de vorige voortgang toegepast waardoor de homepagina er al een stuk netter uit ziet.-
+
+**Screenshots 11 december 2020:**
+| Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
+| ---               | ---                 | ---              |
+| <img src="images/procesverslag/voortgang3a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang3d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang3g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang3b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang3e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang3h.png" width="250px" alt="Scherm 8"> |
+| <img src="images/procesverslag/voortgang3c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang3f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang3i.png" width="250px" alt="Scherm 9"> |
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Charlie        | Emma                | Jon          | Martijn          | Nine                |
+| ---            | ---                 | ---          | ---              | ---                 |
+| z-index        | hover div           |              |                  |                     |
+|                |                     |              |                  |                     |
+|                |                     |              |                  |                     |
+
+### Verslag van meeting
+
+--
+
+**Screenshots van alles wat ik na de meeting toe ga passen:**
+
+<img src="images/procesverslag/" width="250px" alt="">
+
+<img src="images/procesverslag/" width="250px" alt="">
+
+<img src="images/procesverslag/footer-responsive.png" width="250px" alt="">
+
+### Toegankelijkheid
+
+-Ik heb mijn website met de Voice Over bezocht. Op zich was alles denk ik wel goed. Wat ik nog wil toevoegen is de mogelijkheid om meteen naar de content van de website te springen zodat je niet elke keer de hele navigatie-bar af hoeft te luisteren.
 
 
 ## Voortgang 2 (week 5)
