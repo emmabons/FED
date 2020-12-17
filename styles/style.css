@@ -338,7 +338,6 @@ time {
 
 .latest_posts article .arrow {
   color: #d33a2c;
-  color: blue;
   padding: .5em 0em;
   transition: .1s ease-in;
   z-index: 1;
@@ -851,3 +850,29 @@ footer img {
   font-weight: normal;
   margin-left: .2em;
 }
+
+.scaleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.scaleContainer > li {
+  z-index: 1;
+}
+
+.arrow {
+  color: white;
+}
+
+.scaleContainer > li:hover {
+  transform: scale(1.1);
+  transition-duration: .3s;
+  z-index: 2;
+}
+
+li:hover button.arrow {
+  background: blue;
+  width: 5em;
+  margin-left: -.75em;
+}
+
