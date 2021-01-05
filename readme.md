@@ -7,19 +7,34 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -align stuff: (https://www.smashingmagazine.com/2019/03/css-alignment/)-
-2. -bron 2-
-3. -...-
+2. -CSS shapes (https://css-tricks.com/the-shapes-of-css/)-
+3. -toggle text with JS (https://www.tutorialspoint.com/how-to-toggle-text-with-javascript)-
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig: Over het algemeen vond ik deze opdracht redelijk goed gaan. Ik heb veel dingen zelf uit kunnen vogelen en vond het vaak ook leuk om te doen. Ik heb gemerkt dat ik positioneren soms echt nog wel heel lastig vindt. Dat lukte eigenlijk meestal niet in 1 keer. Ook niet in een paar keer. Maar uiteindelijk ben ik er best goed uitgekomen denk ik zelf. De responsive laag was ergens makkelijker dan ik dacht, maar ik heb niet alles uit kunnen werken omdat ik van sommige dingen nergens kon vinden hoe ik dit het beste kon doen. Omdat ik hier in de vakantie mee begonnen ben, kon ik het helaas niet op school navragen.-
+-dit ging goed & dit was lastig: Over het algemeen vond ik deze opdracht redelijk goed gaan. Ik heb veel dingen zelf uit kunnen vogelen en vond het vaak ook leuk om te doen. Ik heb gemerkt dat ik positioneren soms echt nog wel heel lastig vindt. Dat lukte eigenlijk meestal niet in 1 keer. Ook niet in een paar keer. Maar uiteindelijk ben ik er best goed uitgekomen denk ik zelf. De responsive laag was ergens makkelijker dan ik dacht, maar ik heb niet alles uit kunnen werken omdat ik van sommige dingen nergens kon vinden hoe ik dit (het beste) kon doen. Omdat ik hier in de vakantie mee begonnen ben, kon ik het helaas niet op school navragen. Verder vond ik het heel lastig om alles uit te werken wat ik wilde. Veel dingen konden ook niet goed omdat de mensen van die website dit bijvoorbeeld in frameworks hebben uitgewerkt.-
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
+**Screenshots pagina 1 - dinsdag 5 januari 2021:**
+| Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
+| ---               | ---                 | ---              |
+| <img src="images/procesverslag/voortgang4a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang4d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang4g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang4b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang4e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang4h.png" width="250px" alt="Scherm 8"> |
+| <img src="images/procesverslag/voortgang4c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang4f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang4i.png" width="250px" alt="Scherm 9"> |
+|                   |                     | <img src="images/procesverslag/voortgang4j.png" width="250px" alt="Scherm 10"> |
+
+**Screenshots pagina 2 - dinsdag 5 januari 2021:**
+| Scherm 1-3        | Scherm 4-6          | Scherm 7-10      |
+| ---               | ---                 | ---              |
+| <img src="images/procesverslag/voortgang44a.png" width="250px" alt="Scherm 1"> | <img src="images/procesverslag/voortgang44d.png" width="250px" alt="Scherm 4"> | <img src="images/procesverslag/voortgang44g.png" width="250px" alt="Scherm 7"> |
+| <img src="images/procesverslag/voortgang4b.png" width="250px" alt="Scherm 2"> | <img src="images/procesverslag/voortgang44e.png" width="250px" alt="Scherm 5"> | <img src="images/procesverslag/voortgang44h.png" width="250px" alt="Scherm 8"> |
+| <img src="images/procesverslag/voortgang44c.png" width="250px" alt="Scherm 3"> | <img src="images/procesverslag/voortgang44f.png" width="250px" alt="Scherm 6"> | <img src="images/procesverslag/voortgang44i.png" width="250px" alt="Scherm 9"> |
+|                   |                     | <img src="images/procesverslag/voortgang44j.png" width="250px" alt="Scherm 10"> |
 
 
 ## Voortgang 3 (week 6)
@@ -48,15 +63,16 @@ Ik heb alle feedback van de vorige voortgang toegepast waardoor de homepagina er
 
 ### Verslag van meeting
 
---
+-Een aantal dingen waar ik niet uitkwam zijn weer door Janno uitgelegd. Zoals bijvoorbeeld de hover bij de section 'Latest Posts'. Dit was echt een enorme hulp, want ik kwam hier totaal niet uit! Zie hieronder ook de screenshots van de code die ik ga toepassen.-
 
 **Screenshots van alles wat ik na de meeting toe ga passen:**
 
-<img src="images/procesverslag/" width="250px" alt="">
+<img src="images/procesverslag/middlepos.png" width="250px" alt="Code die ik ga toepassen om elemente in het midden te positioneren.">
 
-<img src="images/procesverslag/" width="250px" alt="">
+<img src="images/procesverslag/see-all.png" width="250px" alt="Code die ik ga toepassen voor uitlijnings dingen">
 
-<img src="images/procesverslag/footer-responsive.png" width="250px" alt="">
+<img src="images/procesverslag/span.png" width="250px" alt="Code die ik ga toepassen op de h1 op de hoofdpagina">
+
 
 ### Toegankelijkheid
 
