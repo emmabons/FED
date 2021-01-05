@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. -align stuff: (https://www.smashingmagazine.com/2019/03/css-alignment/)-
 2. -bron 2-
 3. -...-
 
@@ -14,7 +14,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig: Over het algemeen vond ik deze opdracht redelijk goed gaan. Ik heb veel dingen zelf uit kunnen vogelen en vond het vaak ook leuk om te doen. Ik heb gemerkt dat ik positioneren soms echt nog wel heel lastig vindt. Dat lukte eigenlijk meestal niet in 1 keer. Ook niet in een paar keer. Maar uiteindelijk ben ik er best goed uitgekomen denk ik zelf. De responsive laag was ergens makkelijker dan ik dacht, maar ik heb niet alles uit kunnen werken omdat ik van sommige dingen nergens kon vinden hoe ik dit het beste kon doen. Omdat ik hier in de vakantie mee begonnen ben, kon ik het helaas niet op school navragen.-
 
 **Screenshot(s):**
 
@@ -140,7 +140,7 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 **Je startniveau:** -Rood-
 
-**Je focus:** -Ik ga me focussen op wat extra aandacht aan de surface plane, en als het lukt probeer ik hem ook helemaal responsive te maken.-
+**Je focus:** -Ik ga me focussen op wat extra aandacht aan de responsive laag, en als het lukt probeer ik ook nog wat extra aandacht te geven aan de surface.-
 
 **Je opdracht:** -(https://www.smashingmagazine.com/ "Smashing Magazine Homepage")-
 
@@ -150,4 +150,4 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 **Screenshot(s) van de tweede pagina (small screen):** -(https://www.smashingmagazine.com/2016/11/how-to-create-a-dramatic-vector-illustration/)-
 
-<img src="images/procesverslag/smash_2.png" width="375px" alt="Pagina van Smashing Magazine met een artikel.">
+<img src="images/procesverslag/screenshotpag2.png" width="375px" alt="Pagina van Smashing Magazine met een artikel.">
