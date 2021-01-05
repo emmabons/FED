@@ -148,6 +148,6 @@ Het schrijven van de HTML ging redelijk vlot en goed. Het schrijven van de CSS g
 
 <img src="images/procesverslag/smash_home.png" width="375px" alt="Dit is de homepage van de website van Smashing Magazine">
 
-**Screenshot(s) van de tweede pagina (small screen):** -(https://www.smashingmagazine.com/2020/11/authenticating-react-apps-auth0/)-
+**Screenshot(s) van de tweede pagina (small screen):** -(https://www.smashingmagazine.com/2016/11/how-to-create-a-dramatic-vector-illustration/)-
 
 <img src="images/procesverslag/smash_2.png" width="375px" alt="Pagina van Smashing Magazine met een artikel.">
