@@ -12,40 +12,50 @@
 </head>
 
 <body>
-    <header>
-        <div id="d1">
-            <a href="index.html">
-                <img src="images/website/homepage-algemeen/logo.svg" alt="Smashing Magazine logo" id="logo-mob">
-            </a>
-        </div>
+	<header>
+		<div class="d1">
+			<a href="index.html">
+				<img src="images/website/homepage-algemeen/logo.svg" alt="Smashing Magazine logo" class="logo-mob">
+			</a>
+		</div>
 
-        <div id="d2">
-            <button class="menubutton">Menu</button>
-        </div>
-            <nav class="displaynone">
-                <ul>
-                    <li><a href="article.html">Articles</a></li>
-                    <li><a href="article.html">Guides</a></li>
-                    <li><a href="article.html">Books</a></li>
-                    <li><a href="article.html">Workshops</a></li>
-                    <li><a href="article.html">Membership</a></li>
-                    <li><a href="article.html">Job Board</a></li>
-                    <li><a href="article.html">Newsletter</a></li>
-                    <li><a href="article.html">Podcasts</a></li>
-                    <li><a href="article.html">Write for us</a></li>
-                    <li><a href="article.html">Advertise with us</a></li>
-                </ul>
-            </nav>
+		<div class="d2">
+			<button class="menubutton">Menu</button>
+		</div>
 
-        <div id="d3">
-            <form action="get">
-                <input type="search" name="search" id="search" placeholder="Search articles...">
-            </form>
-        </div>
-    </header>
+		<!-- Nav is standaard verborgen. Met CSS d.m.v. media queries, extra classes en een stukje 
+			JavaScript heb ik ervoor gezorgd dat deze tevoorschijn komt door te klikken op de menu 
+			button. -->
+		<nav class="displaynone">
+			<ul>
+				<li><a href="article.html">Articles</a></li>
+				<li><a href="article.html">Guides</a></li>
+				<li><a href="article.html">Books</a></li>
+				<li><a href="article.html">Workshops</a></li>
+				<li><a href="article.html">Membership</a></li>
+				<li><a href="article.html">Job Board</a></li>
+				<li><a href="article.html">Newsletter</a></li>
+				<li><a href="article.html">Podcasts</a></li>
+				<li><a href="article.html">Write for us</a></li>
+				<li><a href="article.html">Advertise with us</a></li>
+			</ul>
+		</nav>
+
+		<div class="d3">
+			<form action="get">
+				<input type="search" name="search" id="search" placeholder="Search articles...">
+			</form>
+		</div>
+	</header>
 
 	<main>
 		<section class="featured-articles">
+
+			<!-- Deze knop is bedoeld om de kleuren van de section 'Featured Articles' wit te maken. Ik heb
+				de button uitgewerkt, maar niet het effect erachter. Dit zou nog gedaan kunnen worden d.m.v.
+				extra classes (een speciale class voor bijna elk element binnen de articles in deze section)
+				en deze vervolgens met JavaScript aan de knop te koppelen, zodat wanneer je op die knop drukt 
+				de kleuren veranderen.. -->
 			<button class="redb">Seriously, red?</button>
 			<h1 class="shadow-beneath" id="h1-1st"><span>Don't Miss These Latest</span><span>Articles</span></h1>
 			<div><img src="./images/website/homepage-algemeen/shadow.png" alt="Shadow"></div>
@@ -153,7 +163,11 @@
 		</section>
 
 		<section class="latest_posts">
+			<!-- Elke section heeft een aparte h1 op deze pagina, omdat elke section articles bevat die doorverwijzen
+			naar hele specifieke plekken op de website.-->
 			<h1 class="home_titles">Latest posts</h1>
+			<!-- Deze class scaleContainer is voor het 'resizen' van de articles wanneer je erover
+			hovert.-->
 			<ul class="scaleContainer">
 				<li>
 					<article>
@@ -253,6 +267,9 @@
 				-
 				without
 				alienating people along the way. By Paul Boag.</p>
+			<!-- Op de echte site hebben ze deze pijltjes verwerkt in een ::after, zodat je hem
+				bijvoorbeeld niet kunt selecteren en hij denk ik ook niet op een screenreader te zien
+				is. Ik heb het op deze manier gedaan omdat de ::after niet lukte.-->
 			<button>Jump to table of contents →</button>
 			<img src="./images/website/homepage-algemeen/click__homepage-illustration.svg"
 				alt="Cover of Paul Boag's 'Click', with the illustrated Smashing Cat.">
@@ -264,16 +281,17 @@
 			<article>
 				<img src="./images/website/homepage-algemeen/sacha-greif-250px-opt.png" alt="Sacha Greif glimlacht."
 					class="pic-move">
-				<h2 id="potw">Person of the week</h2>
-				<p id="f-link">Sacha Greif is a designer, developer, and entrepreneur living and working in Kyoto. He
+				<h2 class="potw">Person of the week</h2>
+				<p class="f-link">Sacha Greif is a designer, developer, and entrepreneur living and working in Kyoto. He
 					created the
 					open-source full-stack app framework <a>Vulcan.js</a> and runs the annual <a href="empty"><em>The
 							State
 							of JavaScript</em></a> survey as well as
-					its little sister, <a href="article.html">em>The State of CSS</em></a>. For his daily newsletter <a
-						href="article.html">em>Sidebar</em></a>, he curates the five best design links
-					every day. Sacha is the co-author of the book <a href="article.html">em>Discover Meteor</em></a> and author of
-					<a href="article.html">em>Brick by Brick</em></a>, a free guide to
+					its little sister, <a href="article.html"><em>The State of CSS</em></a>. For his daily newsletter <a
+						href="article.html"><em>Sidebar</em></a>, he curates the five best design links
+					every day. Sacha is the co-author of the book <a href="article.html"><em>Discover Meteor</em></a>
+					and author of
+					<a href="article.html"><em>Brick by Brick</em></a>, a free guide to
 					help people build successful communities. Thank you for sharing and caring, dear Sacha!</p>
 			</article>
 			<ul>
@@ -324,11 +342,13 @@
 
 		<section class="our_guides">
 			<h1 class="home_titles">Our Guides</h1>
+			<!-- Deze articles moeten nog wat beter 'wrappen'.-->
 			<ul>
 				<li>
 					<article>
 						<p class="smash-g">A smashing guide to</p>
 						<a href="article.html">
+							<!-- ID omdat deze stylings echt uniek zijn (wat kleur betreft en daar goed onderscheid in te maken.-->
 							<h2 id="green">JavaScript & Frameworks</h2>
 						</a>
 						<p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript
@@ -365,7 +385,7 @@
 					</article>
 				</li>
 				<li>
-					<article id="email-r">
+					<article class="email-r">
 						<img src="./images/website/homepage-algemeen/ny20.png"
 							alt="Smashing Cat with a New York City silhouette in the Background">
 						<a href="article.html">
@@ -392,7 +412,8 @@
 
 	<footer>
 		<h1>Browse all Smashing Magazine topics</h1>
-		<ul id="sitemap">
+
+		<ul class="sitemap">
 			<li><a href="article.html">Accessibility</a></li>
 			<li><a href="article.html">Android</a></li>
 			<li><a href="article.html">Animation</a></li>
@@ -428,14 +449,14 @@
 			<li><a href="article.html">Workflow</a></li>
 		</ul>
 
-		<div id="f-notes">
+		<div class="f-notes">
 			<p>With a commitment to quality content for the design community.</p>
 			<p>Founded by Vitaly Friedman and Sven Lennartz. 2006-2020.</p>
 			<p>Smashing is proudly running on <a href="article.html">Netlify</a>.</p>
 			<p>Fonts by <a href="http://latinotype.com/">Latinotype</a></p>
 		</div>
 
-		<ul id="f-last">
+		<ul class="f-last">
 			<li>✎ <a href="article.html">Write for us</a></li>
 			<li><a href="article.html">Contact us</a></li>
 			<li><a href="article.html">About us (Impressum)</a></li>
@@ -447,7 +468,7 @@
 		<img src="./images/website/homepage-algemeen/tablet__left.svg"
 			alt="Cat in a cage who has just eaten a yellow bird. 2 yellow feathers er flying around.">
 
-		<a href="#top" name="top" class="backtotop"></a>
+		<a href="#top" class="backtotop"></a>
 	</footer>
 
 	<script src="scripts/script.js"></script>

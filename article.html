@@ -13,31 +13,35 @@
 
 <body>
     <header>
-        <div id="d1">
+        <div class="d1">
             <a href="index.html">
-                <img src="images/website/homepage-algemeen/logo.svg" alt="Smashing Magazine logo" id="logo-mob">
+                <img src="images/website/homepage-algemeen/logo.svg" alt="Smashing Magazine logo" class="logo-mob">
             </a>
         </div>
 
-        <div id="d2">
+        <div class="d2">
             <button class="menubutton">Menu</button>
         </div>
-            <nav class="displaynone">
-                <ul>
-                    <li><a href="article.html">Articles</a></li>
-                    <li><a href="article.html">Guides</a></li>
-                    <li><a href="article.html">Books</a></li>
-                    <li><a href="article.html">Workshops</a></li>
-                    <li><a href="article.html">Membership</a></li>
-                    <li><a href="article.html">Job Board</a></li>
-                    <li><a href="article.html">Newsletter</a></li>
-                    <li><a href="article.html">Podcasts</a></li>
-                    <li><a href="article.html">Write for us</a></li>
-                    <li><a href="article.html">Advertise with us</a></li>
-                </ul>
-            </nav>
 
-        <div id="d3">
+        <!-- Nav is standaard verborgen. Met CSS d.m.v. media queries, extra classes en een stukje 
+			JavaScript heb ik ervoor gezorgd dat deze tevoorschijn komt door te klikken op de menu 
+			button. -->
+        <nav class="displaynone">
+            <ul>
+                <li><a href="article.html">Articles</a></li>
+                <li><a href="article.html">Guides</a></li>
+                <li><a href="article.html">Books</a></li>
+                <li><a href="article.html">Workshops</a></li>
+                <li><a href="article.html">Membership</a></li>
+                <li><a href="article.html">Job Board</a></li>
+                <li><a href="article.html">Newsletter</a></li>
+                <li><a href="article.html">Podcasts</a></li>
+                <li><a href="article.html">Write for us</a></li>
+                <li><a href="article.html">Advertise with us</a></li>
+            </ul>
+        </nav>
+
+        <div class="d3">
             <form action="get">
                 <input type="search" name="search" id="search" placeholder="Search articles...">
             </form>
@@ -47,12 +51,13 @@
     <main>
         <section class="article">
             <article>
+                <!-- Gebruik gemaakt van wat divjes om dit stuk goed responsive te kunnen stylen-->
                 <div class="authorr">
                     <img src="./images/website/homepage-algemeen/sacha-greif-250px-opt.png" alt="Sacha Greif glimlacht."
                         class="pic-move bigger">
                     <div>
-                        <h3 id="author2">About The Author</h3>
-                        <p id="abtauth">Igor is a <a href="index.html">Toronto-based Product Designer</a> with more than
+                        <h3 class="author2">About The Author</h3>
+                        <p class="abtauth">Igor is a <a href="index.html">Toronto-based Product Designer</a> with more than
                             12
                             years
                             of
@@ -117,10 +122,12 @@
 
                 <p class="jump">More after jump! Continue reading below ↓</p>
 
+                <!-- De reclame heb ik hier een aside gemaakt, zodat mensen met een screenreader duidelijk kunnen
+                merken dat dit een onderbreking is van de tekst die ze aan het lezen zijn.-->
                 <aside>
                     <div><img src="./images/website/homepage-algemeen/design-systems-hardcover-book.png"
                             alt="Cover of Design Systems" class="pic-move no-border"></div>
-                    <div>
+                    <div class=pbutton>
                         <p>Our practical handbook, in which Alla Kholmatova explores how to create <strong>effective and
                                 maintainable design systems</strong> to design great digital products. Meet <a
                                 href="index.html">Design Systems</a>, with common
@@ -250,6 +257,7 @@
 
             </article>
         </section>
+
         <section class="books">
             <figure><img src="./images/website/artikel/bbook.png" alt="Cover of Checklist Cards"
                     class="pic-move no-border">
@@ -274,8 +282,12 @@
         </section>
 
         <section class="comments">
+            <!-- Hier ook weer divjes voor styling purposes.-->
             <div>
                 <h2>- Comments<sup>22</sup></h2>
+                <!-- In het 'echt' zouden deze comments natuurlijk iets anders werken, omdat
+                ze pas verschijnen wanneer iemand het formulier heeft verstuurd. Hetzelfde geldt
+                dan ook voor het formulier hieronder. Deze is nog niet werkend gemaakt.-->
                 <div class="comment">
                     <h3 class="wrote2">Miro Alt wrote - <time datetime="2016-11-10 22:41:39.929">november 10, 2016
                             22:41</time>
@@ -289,7 +301,7 @@
                     <p>Great article! I wish I had more time for this.</p>
                     <button>Reply ↓</button>
                 </div>
-                <button id="load">Load all 22 comments ↓</button>
+                <button class="load">Load all 22 comments ↓</button>
             </div>
 
             <div>
@@ -325,7 +337,7 @@
 
     <footer>
         <h1>Browse all Smashing Magazine topics</h1>
-        <ul id="sitemap">
+        <ul class="sitemap">
             <li><a href="article.html">Accessibility</a></li>
             <li><a href="article.html">Android</a></li>
             <li><a href="article.html">Animation</a></li>
@@ -361,14 +373,14 @@
             <li><a href="article.html">Workflow</a></li>
         </ul>
 
-        <div id="f-notes">
+        <div class="f-notes">
             <p>With a commitment to quality content for the design community.</p>
             <p>Founded by Vitaly Friedman and Sven Lennartz. 2006-2020.</p>
             <p>Smashing is proudly running on <a href="article.html">Netlify</a>.</p>
             <p>Fonts by <a href="http://latinotype.com/">Latinotype</a></p>
         </div>
 
-        <ul id="f-last">
+        <ul class="f-last">
             <li>✎ <a href="article.html">Write for us</a></li>
             <li><a href="article.html">Contact us</a></li>
             <li><a href="article.html">About us (Impressum)</a></li>
